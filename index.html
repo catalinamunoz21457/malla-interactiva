@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Malla Curricular Interactiva</title>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+</head>
+<body>
+  <h1>Malla Curricular</h1>
+  <div class="mermaid">
+    graph TD
+      A[1° Año] --> B[Ramo A]
+      A --> C[Ramo B]
+      B --> D[Ramo C]
+      C --> D
+      D --> E[Electivo]
+  </div>
+</body>
+</html>
+subir malla inicial
